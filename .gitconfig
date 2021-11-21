@@ -1,0 +1,7 @@
+[core]
+	editor = \"C:\\Boot Camp Work too\\Microsoft VS Code\\bin\\code\" --wait
+[init]
+	defaultBranch = main
+[user]
+	name = cjsmith011
+	email = ronaldsmith9090@comcast.net
