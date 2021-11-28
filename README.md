@@ -12,3 +12,5 @@ https://carliesmith.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Carlie Smith
+
+### ©️2021 Run Buddy, Inc
