@@ -19,6 +19,7 @@ header h1 {
     margin: 0;
     display: inline;
 }
+
 header a {
     color: #fce138;
     text-decoration: none;
@@ -64,11 +65,23 @@ section {
 }
 /* Hero Style details*/
 .hero {
-    background-image: url(../images/hero-bg\ \(1\).jpg);
+    background-image: url(/Users/cjsmith/Desktop/projects/run-buddy/assets/images/flipped-hero-image.jpg);
     height: 600px;
     background-size: cover;
     background-position: center;
     position: relative;
+}
+.hero h2 {
+    color: #fce138;
+    font-weight: bold;
+    text-align: right;
+    width: 45%;
+}
+.hero p {
+    color: white;
+    text-align: right;
+    float: left;
+    width: 45%;
 }
 /* HeroForm Style details*/
 .hero-form {
