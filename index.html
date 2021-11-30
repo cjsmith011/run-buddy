@@ -4,6 +4,7 @@
     <meta charset="UTF-8"/>
     <title>Run Buddy</title>
       <link rel="stylesheet" href="assets/css/style.css" />
+      <link rel="stylesheet" href="assets/css/secondary-styles.css"/>
   </head>
   <body>
     <header>
@@ -129,34 +130,41 @@
           </div>
       </div>
     </section> 
-
-    <section id="your-trainers" class="trainers">
+   
+    <section id="your-trainers">
+      <div class="trainers">
+        <!-- This is for show; keep the article tags you have -->
+        <article>Trainer 1 Info</article>
+        <article>Trainer 2 Info</article>
+        <article>Trainer 3 Info</article>  
+      </div>
       <div class="flex-row">
+      
       <h2 class="section-title primary-border">Meet the Trainers</h2>
       </div>
+     
       <article class="trainer">
-
         <img src="assets/images/trainer-1.jpg" alt="Arron Stephnes in his workout gear"/>
-        <div class="trainer-bio text-left">
-          <h3>Arron Stephens</h3>
-          <h4>Speed / Strength</h4>
+        <div class="trainer-bio">
+          <h3 class="trainer-name">Arron Stephens</h3>
+          <h4 class="trainer-role">Speed / Strength</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
       </article>
       <article class="trainer">
-        <div class="trainer-bio text-right">
-          <h3>Joanna Gill</h3>
-          <h4>Endurance</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-        </div>
         <img src="assets/images/trainer-2.jpg" alt="Joann Gill in her workout gear"/>
+        <div class="trainer-bio">
+          <h3 class="trainer-name">Joanna Gill</h3>
+          <h4 class="trainer-role">Endurance</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
       </article>
+      
       <article class="trainer">
         <img src="assets/images/trainer-3.jpg" alt="Harry in his headband"/>
-        <div class="trainer-bio text-left">
-          <h3>Harry "The Headband" Smith</h3>
-          <h4>Strength</h4>
+        <div class="trainer-bio">
+          <h3 class="trainer-name">Harry "The Headband" Smith</h3>
+          <h4 class="trainer-role">Strength</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
         </div>
@@ -166,8 +174,40 @@
 
 
     <section id="reach-out" class="contact">
-      <div class="flex-row">
+ 
       <h2 class="section-title secondary-border">Reach Out</h2>
+      <div class="contact-info">
+        <h3>Run Buddy</h3>
+          <br />
+        <p>Any questions or concerns before signing up?
+          <br />
+          <br />
+           Let us know and we'll be happy to talk to you!
+           <br />
+           <br />
+        </p>
+        <address>
+          55 Main Street 
+          <br /> 
+  
+          Some Town, CA <br />
+          12345 <br />
+          <br />
+          P: 555.RUN.BUDZ (555.785.2839) <br />
+          E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
+        </address>
+      </div>
+      <div class="contact-form">
+        <h3>Contact Us</h3>
+        <form>
+          <label for="contact-name">Your Name</label>
+          <input for="text" id="contact-name" placeholder="Your Name"/>
+
+          <label for="contact-message">Message</label>
+          <textarea id="contact-message" placeholder="Message"></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
       </div>
       <div class="contact-info">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2928.7584992609727!2d-83.3434297846638!3d42.772312479161215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824916153ee08b5%3A0x6cc0c938e35fd325!2s9090%20N%20Eston%20Rd%2C%20Village%20of%20Clarkston%2C%20MI%2048348!5e0!3m2!1sen!2sus!4v1638038821039!5m2!1sen!2sus"
@@ -177,39 +217,7 @@
         allowfullscreen="" 
         loading="lazy">
         </iframe>
-        <div class="contact-form">
-          <h3>Contact Us</h3>
-          <form>
-            <label for="contact-name">Your Name</label>
-            <input for="text" id="contact-name" placeholder="Your Name"/>
-
-            <label for="contact-message">Message</label>
-            <textarea id="contact-message" placeholder="Message"></textarea>
-
-            <button type="submit">Submit</button>
-          </form>
-        </div>
-        <div>
-          <h3>Run Buddy</h3>
-            <br />
-          <p>Any questions or concerns before signing up?
-            <br />
-            <br />
-             Let us know and we'll be happy to talk to you!
-             <br />
-             <br />
-          </p>
-          <address>
-            55 Main Street 
-            <br /> 
-    
-            Some Town, CA <br />
-            12345 <br />
-            <br />
-            P: 555.RUN.BUDZ (555.785.2839) <br />
-            E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
-          </address>
-        </div>
+       
       </div>
     </section>
     
