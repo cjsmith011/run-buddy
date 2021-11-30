@@ -84,6 +84,9 @@ section {
     float: left;
     width: 45%;
 }
+.hero cta {
+    line-height: 1.2;
+}
 /* HeroForm Style details*/
 .hero-form {
     color: #024e76;
@@ -122,7 +125,7 @@ section {
     text-align: center;
 }
 .section-title {
-    font-size: 55px;
+    font-size: 48px;
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
@@ -246,4 +249,20 @@ section {
 .contact-info > * {
     flex: 1;
     margin: 15px;
+}
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
+@media screen and (max-width: 980px) {
+    
+}
+/* MEDIA QUERY FOR TABLEST AND SMALLER */
+@media screen and (max-width: 768px) {
+  
+    
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
+
+@media screen and (max-width: 575px) {
+ 
+       
 }
